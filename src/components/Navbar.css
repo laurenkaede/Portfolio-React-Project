@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(5, 5, 5, 0.911);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: large;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 2px 25px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+
+}

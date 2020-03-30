@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:  rgb(247, 241, 245);
+    text-transform: full-width;  
+}
+
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    margin: 30px 55px;
+    font-size: 24px;
+    padding: 5px;
+    text-indent: 60px;
+    text-align: justify;
+}
+
+.titleAbout {
+    font-size: 48px;
+    padding-bottom: 30px;
+    padding-right: 55px;
+    padding-top: 30px;
+    font-weight: 800;
+    color: rgb(155, 108, 173);
+    font-family: 'Bellota', cursive;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px rgb(66, 66, 66),
+                       3px 3px 8px rgb(164, 132, 170);
+}
+
+  .mainMargin {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .maintextalign {
+    text-align:  center justify;
+  }
+  
+  .backcolor {
+    background-color:  rgb(231, 228, 231); 
+  }
+  
+  .container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container img {
+      vertical-align: middle;
+    }
+  
+.txtindent {
+    text-indent: 60px;
+    text-align: justify;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgb(66, 66, 66),
+                           3px 3px 8px black; 
+    font-size: 18px;
+    }
+
+  .Img5 {
+    
+    height: 100vh;
+      background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.65), 
+          rgba(0, 0, 0, 0.65)
+        ),
+        
+        url("../img5.jpg");
+      
+  
+  }
+
+.meImg {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 3px solid rgb(80, 22, 80);
+    border-radius: 5px;
+  }
